@@ -1,0 +1,7 @@
+- name: Demo playbook
+  hosts: all
+  task:
+   - name : Print Hello world
+     ansible.builtin.debug:
+      msg: Hellow world
+      
