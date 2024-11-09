@@ -1,0 +1,8 @@
+- name: Testing variables
+  hosts: all
+  vars:
+    URL: var.google.com
+  tasks:
+    - name: Access variables
+      ansible.builtin.debug:
+        msg: URL - {{ URL }}
