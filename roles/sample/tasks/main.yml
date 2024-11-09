@@ -1,0 +1,4 @@
+- name: role testing
+  ansible.builtin.debug:
+    msg: {{URL}}
+
